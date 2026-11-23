@@ -1,0 +1,16 @@
+# Exclude unpacked source directories from the public release repository
+wp-plugin-directory/
+cpanel-autossl-manager/
+wp-safe-ui-adjuster/
+cpanel-autossl-manager.zip
+wp-safe-ui-adjuster.zip
+
+# Dependencies & Build outputs
+node_modules/
+.env
+.env.*
+*.local
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
